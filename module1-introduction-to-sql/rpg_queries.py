@@ -19,10 +19,12 @@ subclass_count = "SELECT count(distinct character_ptr_id) FROM charactercreator_
 item_count = "SELECT count(*) FROM armory_item"
 
 fighter_count = "SELECT count(*) FROM charactercreator_fighter"
-mage_count = "SELECT count(*) FROM charactercreator_mage"
-necromancer_count = "SELECT count(*) FROM charactercreator_necromancer"
-thief_count = "SELECT count(*) FROM charactercreator_thief"
 
+mage_count = "SELECT count(*) FROM charactercreator_mage"
+
+necromancer_count = "SELECT count(*) FROM charactercreator_necromancer"
+
+thief_count = "SELECT count(*) FROM charactercreator_thief"
 
 weapon_count = "SELECT count(*) FROM armory_weapon"
 
