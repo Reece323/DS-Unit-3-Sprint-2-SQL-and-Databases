@@ -96,8 +96,3 @@ print(f'On average, how many Items does each Character have? '
 
 print(f'On average, how many Weapons does each Character have? '
       f'{cursor.execute(weapons_average).fetchall()}')
-
-
-
-
-
